@@ -1,0 +1,25 @@
+set term pngcairo
+set output 'temperature.png'
+set datafile separator ','
+set title 'Temperature in degrees celcuis'
+set xlabel 'Counter'
+set ylabel 'Temperature'
+plot 'TEMPHUMI.TXT' using 1:2 title 'temp °C' with lines lc rgb 'blue'
+
+set term pngcairo
+set output 'humidity.png'
+set datafile separator ','
+set title 'Humidity percentage'
+set xlabel 'Counter'
+set ylabel 'Humidity'
+plot 'TEMPHUMI.TXT' using 1:3 title 'humidity %' with lines lc rgb 'blue'
+
+set term pngcairo
+set output 'temp_humi.png'
+set datafile separator ','
+set title 'Temperature/Humidity'
+set xlabel 'Counter'
+set ylabel 'Temp./Humidity'
+plot 'TEMPHUMI.TXT' using 1:2 title 'temp °C' with lines lc rgb 'green', \
+     'TEMPHUMI.TXT' using 1:3 title 'humidity %' with lines lc rgb 'blue'
+
