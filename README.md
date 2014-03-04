@@ -7,8 +7,8 @@ Card.
 
 Libraries used
 
-    * SdFat (https://code.google.com/p/sdfatlib/)
-    * DHTLib (http://playground.arduino.cc/Main/DHTLib#.UxWGAh9p85g)
+* SdFat (https://code.google.com/p/sdfatlib/)
+* DHTLib (http://playground.arduino.cc/Main/DHTLib#.UxWGAh9p85g)
 
 
 Output sample:
