@@ -21,3 +21,9 @@ Output sample:
 
 A counter use due to the absence of a real-time clock on the arduino board. The
 counter is incrementing even after power loss.
+
+
+Schematics
+==========
+
+![alt tag](https://raw.github.com/flazzarini/condiduno/master/schematics_bb.png)
