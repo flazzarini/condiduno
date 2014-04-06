@@ -1,5 +1,5 @@
 ARDUINO_DIR            = /usr/share/arduino
-ARDUINO_LIBS           = DHTlib SdFat
+ARDUINO_LIBS           = DHTlib SdFat Wire Ethernet SPI
 MCU                    = atmega328p
 F_CPU                  = 16000000
 ARDUINO_PORT           = /dev/ttyACM0
